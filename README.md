@@ -45,10 +45,10 @@ cd narutoimageclassifiertemplate
 
 3. Update remote repository location
 
-Replace **github-repository-url** with the GitHub repository URL that was created. The following command can also be found when visiting the GitHub repository URL under the "...or push an existing repository from the command line" section.
+Replace **github-repository-url** with the GitHub repository URL that was created.
 
 ```
-git remote add origin github-repository-url.git
+git remote set-url origin github-repository-url.git
 ```
 
 4. Initialize Git Large File Storage
